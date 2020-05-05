@@ -1,0 +1,354 @@
+/*gobal*/
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+
+.container1{
+    max-width: 1170px;
+    border: #dedede solid 1px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+.clearfixx{
+    clear: both;
+}
+
+.bttn{
+    display: inline-block;
+    padding: 0px 21px;
+    background-color: #b88c22;
+    line-height: 40px;
+    font-family: sans-serif;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: all .4s;
+    border: 0px solid transparent;
+}
+
+.bttn:hover {
+    background-color: black;
+    color: #b88c22;
+}
+
+/* global end */
+
+
+
+
+
+/*menu section start */
+
+nav li:hover a{
+    background-color: rgb(139, 87, 87,0.5);
+}
+
+/*menu section end */
+
+
+
+
+
+
+
+
+
+/* banner section style*/
+.banner img{
+    width: 100%;
+    height: auto;
+}
+.banner .item{
+    position: relative;
+    overflow: hidden;
+}
+.banner .item .banner-title{
+    position: absolute;
+    left: 0;
+    bottom: -60%;
+    background-color: #18171738;
+    width: 100%;
+    padding: 1%;
+    font-size: 200%;
+    color: white;
+    font-style: italic;
+    text-align: center;
+    transition: all 0.4s;
+}
+.banner .item:hover .banner-title{
+    bottom: 0%;
+}
+.banner .item .banner-title a{
+    text-decoration: none;
+    color: #ec0909;
+    transition: all 0.4s;
+}
+.banner .item .banner-title a:hover {
+    color: rgb(0, 255, 34);
+}
+/* banner section style*/
+
+
+
+
+
+/*Grid section home */
+
+.grid-text{
+    font-family: Verdana, sans-serif;
+}
+
+.grid-image {
+    width: 250px;
+}
+/*Grid section home end */
+
+
+/*foooter style section */
+.copyright{
+    background-color: black;
+    text-align: center;
+    font-size: 20px;
+    color: blanchedalmond;
+}
+
+.copyright p{
+    margin: auto;
+    padding: 15px 0;
+}
+/*foooter style section end */
+
+
+
+
+
+
+
+
+/*foooter style section */
+.copyright{
+    background-color: black;
+    text-align: center;
+    font-size: 20px;
+    color: blanchedalmond;
+    
+}
+
+.copyright p{
+    margin: auto;
+    padding: 15px 0;
+}
+/*foooter style section end */
+
+
+
+
+
+
+
+
+
+
+
+/* about page */ 
+/* right text portion */
+
+.text-portion a{
+    text-decoration: none;
+}
+.text-portion{
+    width: 66%;
+    float: left;
+}
+.text-portion h1{
+    font-size: 225%;
+    margin-top: 0;
+    color: #1d0caa;
+    background-color: #b88c22;
+}
+.about-text{
+    font-size: 100%;
+    font-family: Verdana, sans-serif;
+    padding: 2%;
+}
+
+/*educational institutions*/
+.educational-institutions .image2{
+    float: left;
+    width: 50%;
+    padding: 1px;
+    margin: 0 0;
+}
+.educational-institutions img{
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*educational institutions end*/
+
+
+
+/* right text portion end */
+
+
+
+
+
+
+/* sub portion */
+.sub-portion{
+    width: 30%;
+    float: right;
+}
+#form-sub {
+    margin-top: -10px;
+}
+.widgets {
+    border: 1px solid #cdcdcd;
+    padding: 15px;
+    text-align: center;
+    margin-top: 40px;
+    background-color: teal;
+}
+.other-pages {
+    margin: 0 -13px;
+}
+#side-bar h2 {
+    margin-top: 0px ;
+    margin-bottom: 30px;
+    color: red;
+}
+.subscribe input, .contact-portion input {
+    width: 100%;
+    display: inline-block;
+    padding: 0 10px;
+    line-height: 35px;
+    border: 1px solid #cdcdcd;
+
+}
+
+.subscribe .btn {
+    margin-top: 10px;
+
+}
+.other-pages ul {
+    margin-left: -40px;
+}
+
+.other-pages li {
+    background-color: white;
+    list-style: none;
+    margin: 10px 0px;
+    padding: 10px;
+    color: black;
+    transition: all 0.5s;
+}
+.other-pages li:hover {
+    background-color: black;
+    text-decoration: white;
+}
+.other-pages a {
+    text-decoration: none;
+    
+
+} /*sub portion end */
+/* about page end */
+
+
+
+
+
+
+
+
+
+
+
+/* contact page */
+.col-2 {
+    width: 50%;
+    float: left;
+    padding: 15px;
+}
+
+.contact-portion h1{
+    margin-top: 30px;
+    padding-left: 10px;
+}
+
+.contact-portion p{
+    
+}
+
+.col-22 {
+    width: 50%;
+}
+
+.contact-portion input {
+    margin-bottom: 15px;
+}
+
+.contact-portion textarea {
+    width: 100%;
+    display: inline-block;
+    padding: 2px 2px;
+    line-height: 13.5px;
+    border: 1px solid #cdcdcd;
+}
+.contact-us {
+    
+}
+.contact-portion {
+    background-color: #dedede;
+    padding-bottom: 30px;
+}
+.contact-portion .btn {
+    margin-left: 30px;
+    margin-top: 0px;
+}
+
+.map-area {
+    margin-top: 30px;
+}
+
+/* contact page end*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* resposive style */
+@media screen and (max-width: 960px ){
+    
+}
+
+@media screen and (max-width: 728px ){
+    .text-portion, .sub-portion, .col-22 {
+        width: 100%;
+    }
+    .col-4{
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 500px ){
+    .text-portion,.col-4, .sub-portion {
+        width: 100%;
+    }
+}
+
+/* resposive style */
